@@ -1,0 +1,240 @@
+/* Giao diện giấy cổ điển & kệ gỗ - Tin học 12 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf6ee;
+  color: #33261d;
+  margin: 0;
+  line-height: 1.6;
+}
+header {
+  background-color: #4a2e1b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 4px solid #c89b3c;
+}
+header h1 {
+  font-family: Georgia, serif;
+  margin: 0 0 5px;
+}
+nav { margin-top: 10px; }
+nav a {
+  color: #faf6ee;
+  text-decoration: none;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+nav a:hover, .chon {
+  background-color: #c89b3c;
+  color: #2c1e16;
+}
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+h2, h3 {
+  font-family: Georgia, serif;
+  color: #4a2e1b;
+}
+h2 {
+  border-bottom: 2px dashed #c89b3c;
+  padding-bottom: 5px;
+}
+.hop {
+  background-color: #fff;
+  border: 1px solid #e0d3be;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+/* Kệ sách xếp ngang */
+.ke-sach {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.sach {
+  flex: 1;
+  min-width: 230px;
+  background-color: #fff;
+  border: 1px solid #e0d3be;
+  border-bottom: 10px solid #6b4226; /* Đế kệ gỗ */
+  border-radius: 8px;
+  padding: 14px;
+  transition: 0.2s;
+}
+.sach:hover {
+  transform: translateY(-5px);
+  background-color: #fffdf5;
+}
+img { max-width: 100%; border-radius: 6px; }
+blockquote {
+  background-color: #fff4d2;
+  border-left: 5px solid #c89b3c;
+  padding: 12px 15px;
+  font-style: italic;
+  margin: 15px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: 15px 0;
+}
+th, td {
+  border: 1px solid #d9c9b0;
+  padding: 10px;
+  text-align: left;
+}
+th { background-color: #4a2e1b; color: #fff; }
+tr:hover { background-color: #f7efe0; }
+.nut {
+  display: inline-block;
+  background-color: #2f5233;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.nut:hover { background-color: #1e3821; }
+input, textarea {
+  width: 96%;
+  padding: 8px;
+  margin: 5px 0 12px;
+  border: 1px solid #cbbba0;
+  border-radius: 5px;
+}
+footer {
+  background-color: #4a2e1b;
+  color: #e8dcc8;
+  text-align: center;
+  padding: 12px;
+  margin-top: 25px;
+  font-size: 14px;
+}
+/* Giao diện giấy cổ điển & kệ gỗ - Tin học 12 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #faf6ee;
+  color: #33261d;
+  margin: 0;
+  line-height: 1.6;
+}
+header {
+  background-color: #4a2e1b;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px;
+  border-bottom: 4px solid #c89b3c;
+}
+header h1 {
+  font-family: Georgia, serif;
+  margin: 0 0 5px;
+}
+nav { margin-top: 10px; }
+nav a {
+  color: #faf6ee;
+  text-decoration: none;
+  padding: 6px 12px;
+  margin: 0 3px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+nav a:hover, .chon {
+  background-color: #c89b3c;
+  color: #2c1e16;
+}
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+h2, h3 {
+  font-family: Georgia, serif;
+  color: #4a2e1b;
+}
+h2 {
+  border-bottom: 2px dashed #c89b3c;
+  padding-bottom: 5px;
+}
+.hop {
+  background-color: #fff;
+  border: 1px solid #e0d3be;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 18px;
+}
+/* Kệ sách xếp ngang */
+.ke-sach {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.sach {
+  flex: 1;
+  min-width: 230px;
+  background-color: #fff;
+  border: 1px solid #e0d3be;
+  border-bottom: 10px solid #6b4226; /* Đế kệ gỗ */
+  border-radius: 8px;
+  padding: 14px;
+  transition: 0.2s;
+}
+.sach:hover {
+  transform: translateY(-5px);
+  background-color: #fffdf5;
+}
+img { max-width: 100%; border-radius: 6px; }
+blockquote {
+  background-color: #fff4d2;
+  border-left: 5px solid #c89b3c;
+  padding: 12px 15px;
+  font-style: italic;
+  margin: 15px 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: 15px 0;
+}
+th, td {
+  border: 1px solid #d9c9b0;
+  padding: 10px;
+  text-align: left;
+}
+th { background-color: #4a2e1b; color: #fff; }
+tr:hover { background-color: #f7efe0; }
+.nut {
+  display: inline-block;
+  background-color: #2f5233;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.nut:hover { background-color: #1e3821; }
+input, textarea {
+  width: 96%;
+  padding: 8px;
+  margin: 5px 0 12px;
+  border: 1px solid #cbbba0;
+  border-radius: 5px;
+}
+footer {
+  background-color: #4a2e1b;
+  color: #e8dcc8;
+  text-align: center;
+  padding: 12px;
+  margin-top: 25px;
+  font-size: 14px;
+}
